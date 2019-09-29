@@ -42,7 +42,7 @@ namespace hnswlib {
             dist_func_param_ = s->get_dist_func_param();
             M_ = M;
             maxM_ = M_;
-            maxM0_ = ((size_t) M_ * 3 / 2);
+            maxM0_ = ((size_t) M_ * 2);
             ef_construction_ = std::max(ef_construction,M_);
             ef_ = 10;
 
